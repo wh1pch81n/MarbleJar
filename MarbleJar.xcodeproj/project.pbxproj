@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F67ECD317E53CA100101750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECD217E53CA100101750 /* Foundation.framework */; };
+		7F67ECD517E53CA100101750 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECD417E53CA100101750 /* CoreGraphics.framework */; };
+		7F67ECD717E53CA100101750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECD617E53CA100101750 /* UIKit.framework */; };
+		7F67ECD917E53CA100101750 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECD817E53CA100101750 /* CoreData.framework */; };
+		7F67ECDF17E53CA100101750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F67ECDD17E53CA100101750 /* InfoPlist.strings */; };
+		7F67ECE117E53CA100101750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67ECE017E53CA100101750 /* main.m */; };
+		7F67ECE517E53CA100101750 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67ECE417E53CA100101750 /* MJAppDelegate.m */; };
+		7F67ECE817E53CA100101750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F67ECE617E53CA100101750 /* Main.storyboard */; };
+		7F67ECEB17E53CA100101750 /* MarbleJar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F67ECE917E53CA100101750 /* MarbleJar.xcdatamodeld */; };
+		7F67ECEE17E53CA100101750 /* MJMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67ECED17E53CA100101750 /* MJMasterViewController.m */; };
+		7F67ECF117E53CA100101750 /* MJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67ECF017E53CA100101750 /* MJDetailViewController.m */; };
+		7F67ECF317E53CA100101750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F67ECF217E53CA100101750 /* Images.xcassets */; };
+		7F67ECFA17E53CA100101750 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECF917E53CA100101750 /* XCTest.framework */; };
+		7F67ECFB17E53CA100101750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECD217E53CA100101750 /* Foundation.framework */; };
+		7F67ECFC17E53CA100101750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECD617E53CA100101750 /* UIKit.framework */; };
+		7F67ECFD17E53CA100101750 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F67ECD817E53CA100101750 /* CoreData.framework */; };
+		7F67ED0517E53CA100101750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F67ED0317E53CA100101750 /* InfoPlist.strings */; };
+		7F67ED0717E53CA100101750 /* MarbleJarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67ED0617E53CA100101750 /* MarbleJarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F67ECFE17E53CA100101750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F67ECC717E53CA100101750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F67ECCE17E53CA100101750;
+			remoteInfo = MarbleJar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F67ECCF17E53CA100101750 /* MarbleJar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F67ECD217E53CA100101750 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F67ECD417E53CA100101750 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F67ECD617E53CA100101750 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F67ECD817E53CA100101750 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7F67ECDC17E53CA100101750 /* MarbleJar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarbleJar-Info.plist"; sourceTree = "<group>"; };
+		7F67ECDE17E53CA100101750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F67ECE017E53CA100101750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F67ECE217E53CA100101750 /* MarbleJar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarbleJar-Prefix.pch"; sourceTree = "<group>"; };
+		7F67ECE317E53CA100101750 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		7F67ECE417E53CA100101750 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		7F67ECE717E53CA100101750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F67ECEA17E53CA100101750 /* MarbleJar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarbleJar.xcdatamodel; sourceTree = "<group>"; };
+		7F67ECEC17E53CA100101750 /* MJMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJMasterViewController.h; sourceTree = "<group>"; };
+		7F67ECED17E53CA100101750 /* MJMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJMasterViewController.m; sourceTree = "<group>"; };
+		7F67ECEF17E53CA100101750 /* MJDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJDetailViewController.h; sourceTree = "<group>"; };
+		7F67ECF017E53CA100101750 /* MJDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJDetailViewController.m; sourceTree = "<group>"; };
+		7F67ECF217E53CA100101750 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F67ECF817E53CA100101750 /* MarbleJarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarbleJarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F67ECF917E53CA100101750 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F67ED0217E53CA100101750 /* MarbleJarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarbleJarTests-Info.plist"; sourceTree = "<group>"; };
+		7F67ED0417E53CA100101750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F67ED0617E53CA100101750 /* MarbleJarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarbleJarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F67ECCC17E53CA100101750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67ECD517E53CA100101750 /* CoreGraphics.framework in Frameworks */,
+				7F67ECD917E53CA100101750 /* CoreData.framework in Frameworks */,
+				7F67ECD717E53CA100101750 /* UIKit.framework in Frameworks */,
+				7F67ECD317E53CA100101750 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F67ECF517E53CA100101750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67ECFA17E53CA100101750 /* XCTest.framework in Frameworks */,
+				7F67ECFD17E53CA100101750 /* CoreData.framework in Frameworks */,
+				7F67ECFC17E53CA100101750 /* UIKit.framework in Frameworks */,
+				7F67ECFB17E53CA100101750 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F67ECC617E53CA100101750 = {
+			isa = PBXGroup;
+			children = (
+				7F67ECDA17E53CA100101750 /* MarbleJar */,
+				7F67ED0017E53CA100101750 /* MarbleJarTests */,
+				7F67ECD117E53CA100101750 /* Frameworks */,
+				7F67ECD017E53CA100101750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F67ECD017E53CA100101750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F67ECCF17E53CA100101750 /* MarbleJar.app */,
+				7F67ECF817E53CA100101750 /* MarbleJarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F67ECD117E53CA100101750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F67ECD217E53CA100101750 /* Foundation.framework */,
+				7F67ECD417E53CA100101750 /* CoreGraphics.framework */,
+				7F67ECD617E53CA100101750 /* UIKit.framework */,
+				7F67ECD817E53CA100101750 /* CoreData.framework */,
+				7F67ECF917E53CA100101750 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F67ECDA17E53CA100101750 /* MarbleJar */ = {
+			isa = PBXGroup;
+			children = (
+				7F67ECE317E53CA100101750 /* MJAppDelegate.h */,
+				7F67ECE417E53CA100101750 /* MJAppDelegate.m */,
+				7F67ECE617E53CA100101750 /* Main.storyboard */,
+				7F67ECEC17E53CA100101750 /* MJMasterViewController.h */,
+				7F67ECED17E53CA100101750 /* MJMasterViewController.m */,
+				7F67ECEF17E53CA100101750 /* MJDetailViewController.h */,
+				7F67ECF017E53CA100101750 /* MJDetailViewController.m */,
+				7F67ECF217E53CA100101750 /* Images.xcassets */,
+				7F67ECE917E53CA100101750 /* MarbleJar.xcdatamodeld */,
+				7F67ECDB17E53CA100101750 /* Supporting Files */,
+			);
+			path = MarbleJar;
+			sourceTree = "<group>";
+		};
+		7F67ECDB17E53CA100101750 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F67ECDC17E53CA100101750 /* MarbleJar-Info.plist */,
+				7F67ECDD17E53CA100101750 /* InfoPlist.strings */,
+				7F67ECE017E53CA100101750 /* main.m */,
+				7F67ECE217E53CA100101750 /* MarbleJar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F67ED0017E53CA100101750 /* MarbleJarTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F67ED0617E53CA100101750 /* MarbleJarTests.m */,
+				7F67ED0117E53CA100101750 /* Supporting Files */,
+			);
+			path = MarbleJarTests;
+			sourceTree = "<group>";
+		};
+		7F67ED0117E53CA100101750 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F67ED0217E53CA100101750 /* MarbleJarTests-Info.plist */,
+				7F67ED0317E53CA100101750 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F67ECCE17E53CA100101750 /* MarbleJar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F67ED0A17E53CA100101750 /* Build configuration list for PBXNativeTarget "MarbleJar" */;
+			buildPhases = (
+				7F67ECCB17E53CA100101750 /* Sources */,
+				7F67ECCC17E53CA100101750 /* Frameworks */,
+				7F67ECCD17E53CA100101750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarbleJar;
+			productName = MarbleJar;
+			productReference = 7F67ECCF17E53CA100101750 /* MarbleJar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F67ECF717E53CA100101750 /* MarbleJarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F67ED0D17E53CA100101750 /* Build configuration list for PBXNativeTarget "MarbleJarTests" */;
+			buildPhases = (
+				7F67ECF417E53CA100101750 /* Sources */,
+				7F67ECF517E53CA100101750 /* Frameworks */,
+				7F67ECF617E53CA100101750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F67ECFF17E53CA100101750 /* PBXTargetDependency */,
+			);
+			name = MarbleJarTests;
+			productName = MarbleJarTests;
+			productReference = 7F67ECF817E53CA100101750 /* MarbleJarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F67ECC717E53CA100101750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Derrick Ho";
+				TargetAttributes = {
+					7F67ECF717E53CA100101750 = {
+						TestTargetID = 7F67ECCE17E53CA100101750;
+					};
+				};
+			};
+			buildConfigurationList = 7F67ECCA17E53CA100101750 /* Build configuration list for PBXProject "MarbleJar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F67ECC617E53CA100101750;
+			productRefGroup = 7F67ECD017E53CA100101750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F67ECCE17E53CA100101750 /* MarbleJar */,
+				7F67ECF717E53CA100101750 /* MarbleJarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F67ECCD17E53CA100101750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67ECF317E53CA100101750 /* Images.xcassets in Resources */,
+				7F67ECDF17E53CA100101750 /* InfoPlist.strings in Resources */,
+				7F67ECE817E53CA100101750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F67ECF617E53CA100101750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67ED0517E53CA100101750 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F67ECCB17E53CA100101750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67ECE117E53CA100101750 /* main.m in Sources */,
+				7F67ECF117E53CA100101750 /* MJDetailViewController.m in Sources */,
+				7F67ECEE17E53CA100101750 /* MJMasterViewController.m in Sources */,
+				7F67ECE517E53CA100101750 /* MJAppDelegate.m in Sources */,
+				7F67ECEB17E53CA100101750 /* MarbleJar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F67ECF417E53CA100101750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67ED0717E53CA100101750 /* MarbleJarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F67ECFF17E53CA100101750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F67ECCE17E53CA100101750 /* MarbleJar */;
+			targetProxy = 7F67ECFE17E53CA100101750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F67ECDD17E53CA100101750 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F67ECDE17E53CA100101750 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F67ECE617E53CA100101750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F67ECE717E53CA100101750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F67ED0317E53CA100101750 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F67ED0417E53CA100101750 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F67ED0817E53CA100101750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F67ED0917E53CA100101750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F67ED0B17E53CA100101750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleJar/MarbleJar-Prefix.pch";
+				INFOPLIST_FILE = "MarbleJar/MarbleJar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F67ED0C17E53CA100101750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleJar/MarbleJar-Prefix.pch";
+				INFOPLIST_FILE = "MarbleJar/MarbleJar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F67ED0E17E53CA100101750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarbleJar.app/MarbleJar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleJar/MarbleJar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MarbleJarTests/MarbleJarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7F67ED0F17E53CA100101750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarbleJar.app/MarbleJar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleJar/MarbleJar-Prefix.pch";
+				INFOPLIST_FILE = "MarbleJarTests/MarbleJarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F67ECCA17E53CA100101750 /* Build configuration list for PBXProject "MarbleJar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F67ED0817E53CA100101750 /* Debug */,
+				7F67ED0917E53CA100101750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F67ED0A17E53CA100101750 /* Build configuration list for PBXNativeTarget "MarbleJar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F67ED0B17E53CA100101750 /* Debug */,
+				7F67ED0C17E53CA100101750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F67ED0D17E53CA100101750 /* Build configuration list for PBXNativeTarget "MarbleJarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F67ED0E17E53CA100101750 /* Debug */,
+				7F67ED0F17E53CA100101750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F67ECE917E53CA100101750 /* MarbleJar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F67ECEA17E53CA100101750 /* MarbleJar.xcdatamodel */,
+			);
+			currentVersion = 7F67ECEA17E53CA100101750 /* MarbleJar.xcdatamodel */;
+			path = MarbleJar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F67ECC717E53CA100101750 /* Project object */;
+}
